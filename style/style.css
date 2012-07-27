@@ -1,0 +1,56 @@
+/* Тело документа */
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 800px;
+    background:rgba(0, 0, 0, 0.3);
+}
+/* Главный блок */
+#stage {
+    height: 290px;
+    display: block;
+}
+/* Блок сообщений */
+#message {
+    display: block;
+    float: left;
+    width: 590px;
+    height: 220px;
+    overflow: auto;
+    margin: 10px 0px 10px 10px;
+}
+/* Блок отображения юзверей */
+#user {
+    display: block;
+    float: right;
+    width: 180px;
+    height: 220px;
+    margin: 10px 10px 10px 0px;
+}
+/* Закругляем красиво углы */
+.corner {
+    background:#cf6;
+    border:1px solid #f6f;
+    box-shadow:0px 3px 7px #f9f;
+    -moz-box-shadow:0px 3px 7px #f9f;
+    -webkit-box-shadow:0px 3px 7px #f9f;
+    -webkit-box-shadow:0px 3px 7px #f9f;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    -khtml-border-radius:4px;
+}
+/* Отступ от границ */
+.d {
+    padding: 10px;
+}
+/* Блок отправки сообщения */
+#send_line {
+    margin: 0px 10px 10px 10px;
+    width: 780px;
+}
+/* стиль input отправки сообщения */
+.msg {
+    width: 760px;
+    margin: 4px 0px 4px 10px;
+}

@@ -1,0 +1,5 @@
+# Главный файл
+ DirectoryIndex index1.html
+
+ # Кодировка страниц
+ AddDefaultCharset UTF-8
